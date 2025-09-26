@@ -2,7 +2,7 @@ package javaapplication2;
 import java.util.*;
 class GestorGeneral {
     private ArrayList<Alumno> alumnos = new ArrayList<>();
-    private ArrayList<Docente> docentes = new ArrayList<>();
+    ArrayList<Docente> docentes = new ArrayList<>();
     private ArrayList<Curso> cursos = new ArrayList<>();
     private ArrayList<Matricula> matriculas = new ArrayList<>();
     private HashMap<String, ArrayList<Double>> notas = new HashMap<>();

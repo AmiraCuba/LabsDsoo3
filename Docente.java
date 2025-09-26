@@ -17,6 +17,9 @@ public class Docente {
     public String getApellidos() { 
         return apellidos; 
     }
+    public String getDni() { 
+        return dni; 
+    }
     
     public String toString() {
         return nombres + " " + apellidos + " (" + especialidad + ")";
